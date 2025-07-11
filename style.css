@@ -1,0 +1,52 @@
+/* bismillah */
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(Hero-bg.png);
+    
+    
+}
+nav{
+    
+}
+nav ul{
+    margin: 50px 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.share-button{
+    background-color: #4E47FF;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+ul li button:hover{
+    background-color: #4d47ffce;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 34px;
+}
+nav li{
+    list-style: none;
+}
+.banner{
+    margin-top: 160px;
+}
+.banner-info{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 64px;
+}
+.banner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
