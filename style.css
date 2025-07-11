@@ -53,8 +53,9 @@ nav li{
 }
 /* main section */
 main{
-    width: 70%;
+   
    display:flex;
+   flex-wrap: wrap;
    justify-content: space-between;
    align-content: space-between;
    margin: 100px;
@@ -67,3 +68,52 @@ main h2{
     font-size: 40px;
 
 }
+main img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 255, 0.322);
+}
+.review_div section h2{
+    display: inline;
+    
+}
+.star{
+    box-shadow: none;
+}
+.container{
+    display: flex;
+    background-color: #4d47ff34;
+    gap: 80px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.left h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.2;
+}
+.right form{
+    display: flex;
+    -ms-flex-direction: column;
+    width: 300px;
+
+}
+form label{
+margin-top: 20px;
+margin-bottom: 5px;
+font-size: 14px;
+color: #333;
+}
+form input, form textarea{
+    padding: 12px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: none;
+}
+form textarea{
+    height: 100px;
+}
+form button:hover{
+    background-color: #241de4a8;
+}
+
